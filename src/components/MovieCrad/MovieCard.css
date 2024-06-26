@@ -1,0 +1,16 @@
+.movie-card {
+  width: calc(25% - 30px);
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.movie-card h6 {
+  color: #fff;
+}

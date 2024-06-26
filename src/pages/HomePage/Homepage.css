@@ -1,0 +1,11 @@
+.movie-list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.section-title {
+  color: #fff;
+  margin-top: 16px;
+}
