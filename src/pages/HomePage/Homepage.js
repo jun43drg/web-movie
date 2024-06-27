@@ -17,14 +17,14 @@ export const Homepage = () => {
     onFetchMovie();
   }, []);
 
-  const movieListElement = popularmovies.map((movie) => {
-    return <MovieCard data={movie} key={movie.id} />;
-  });
+  // const movieListElement = popularmovies.map((movie) => {
+  //   return <MovieCard data={movie} key={movie.id} />;
+  // });
 
   return (
     <div>
       <h1>Phim hay</h1>
-      <div className="movie-list"> {movieListElement}</div>
+      {/* <div className="movie-list"> {movieListElement}</div> */}
       <MoviesList />
     </div>
   );

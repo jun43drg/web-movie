@@ -38,7 +38,7 @@ const MovieDetail = () => {
     <div className="movie-detail">
       <h1>Tên: {name}</h1>
       <img src={poster_url} alt={name} />
-      <p>{content}</p>
+      <div dangerouslySetInnerHTML={{ __html: content }}></div>
 
       <div className="episode-list">
         <h2>Danh sách tập phim</h2>
